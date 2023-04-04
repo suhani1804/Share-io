@@ -28,7 +28,7 @@ const Display = ({ contract, account }) => {
           <a href={item} key={i} target="_blank">
             <img
               key={i}
-              src={`https://gateway.pinata.cloud/ipfs/${item.substring(6)}`}
+              src={`https://gateway.pinata.cloud/ipfs/${item.substring(6)}`}//this substring is used to remove the https:// from the string
               alt="new"
               className="image-list"
             ></img>
