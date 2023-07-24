@@ -8,44 +8,38 @@
   
   .choose {
     background-color: initial;
-    background-image: linear-gradient(-180deg, #5aff15, #00b712);
+    background-image: linear-gradient(-180deg, #92659f, #b17ed3);
     border-radius: 6px;
-    color: #ffffff;
+    color: #000000;
     padding: 5px 10px;
     border-radius: 6px;
     margin-right: 10px;
     padding-bottom: 10px;
   }
   .choose:hover {
-    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+    box-shadow: rgba(179, 105, 215, 0.5) 0 3px 8px;
   }
   .textArea {
     color: white;
+    color: #bd5fe0;
   }
   
   .upload {
-    border: 1px solid #13aa52;
-    background-color: #13aa52;
-    color: #ffffff;
+    border: 1px solid #985daf;
+    background-color: #9c59b4;
+    color: #000000;
     padding: 5px 10px;
     border-radius: 6px;
     margin-left: 10px;
   }
   
   .upload:hover {
-    border: 1px solid #13aa52;
-    background-color: #a5efc1;
+    border: 1px solid #985daf;
+    background-color: #71308a;
     color: #ffffff;
     padding: 5px 10px;
   }
-  
-  .upload:disabled,
-  .upload[disabled] {
-    border: 1px solid #999999;
-    background-color: #cccccc;
-    color: #666666;
-  }
-  
+    
   div {
     padding: 5px 10px;
   }

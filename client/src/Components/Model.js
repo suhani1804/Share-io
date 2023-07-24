@@ -35,12 +35,12 @@ const Modal = ({ setModalOpen, contract }) => {
             ></input>
           </div>
           <form id="myForm">
-            <select id="selectNumber">
+            <select id="selectNumber" style={{padding: "4px"}}>
               <option className="address">People With Access</option>
             </select>
           </form>
           <div className="footer">
-            <button
+            <button style={{backgroundColor:"black"}}
               onClick={() => {
                 setModalOpen(false);
               }}
@@ -48,7 +48,7 @@ const Modal = ({ setModalOpen, contract }) => {
             >
               Cancel
             </button>
-            <button onClick={() => sharing()}>Share</button>
+            <button style={{backgroundColor:"violet"}} onClick={() => sharing()}>Share</button>
           </div>
         </div>
       </div>

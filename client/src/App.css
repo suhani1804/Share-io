@@ -1,20 +1,36 @@
 .App {
   text-align: center;
+  color: white;
 }
-
+.account
+{
+  color: rgb(113, 47, 146);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.background
+{
+  background-color: #151414;
+  height: 100vh;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.des
+{
+  color: rgb(212, 192, 222);
+  font-size: 30px;
+  font-family: ''Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif'; 
+  width: 50%;
+  margin-left: 25%;
 
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #556381;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -118,7 +134,7 @@ p {
   padding: 16px;
   margin-top: 10px;
   vertical-align: center;
-  background: #f44336;
+  background: #49155e;
   width: 70px;
   height: 45px;
   color: white;

@@ -53,6 +53,7 @@ function App() {
   }, []);
   return (
     <>
+    <div className="background">
       {!modalOpen && (
         <button className="share" onClick={() => setModalOpen(true)}>
           Share
@@ -63,9 +64,11 @@ function App() {
       )}
 
       <div className="App">
-        <h1 style={{ color: "black" }}>Gdrive 3.0</h1>
-
-        <p style={{ color: "black" }}>
+        <h1 style={{ color: "white" }}>Share The File</h1>
+        <p className="des">
+          This is a decentralized file sharing application. You can upload your files and share them with your friends. 
+        </p>
+        <p className="account">
           Account : {account ? account : "Not connected"}
         </p>
         <FileUpload
@@ -74,6 +77,7 @@ function App() {
           contract={contract}
         ></FileUpload>
         <Display contract={contract} account={account}></Display>
+      </div>
       </div>
     </>
   );

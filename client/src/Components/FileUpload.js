@@ -16,8 +16,7 @@ const FileUpload = ({ contract, account, provider }) => {
           url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
           data: formData,
           headers: {
-            pinata_api_key: `
-            7e1746a254b1eb06bac8`,
+            pinata_api_key: `7e1746a254b1eb06bac8`,
             pinata_secret_api_key: `
             dfed6d1bd93deb68496e0ad6cd1edf0f5add1f708db209825f2f913f0356c311`,
             "Content-Type": "multipart/form-data",
@@ -60,7 +59,7 @@ const FileUpload = ({ contract, account, provider }) => {
           name="data"
           onChange={retrieveFile}
         />
-        <span className="textArea"style={{ color: "black" }}>Image: {fileName}</span>
+        <span className="textArea">Image: {fileName}</span>
         <button type="submit" className="upload" disabled={!file}>
           Upload File
         </button>

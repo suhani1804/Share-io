@@ -77,8 +77,9 @@
     height: 30px;
     width: 330px;
     text-align: center;
+    color: black;
   }
   
   input[type="text"]:focus {
-    background-color: lightblue;
+    background-color: rgb(22, 54, 64);
   }
