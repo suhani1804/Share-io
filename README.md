@@ -1,13 +1,14 @@
 # Share-io🔥
 
 ### Welcome to Share-io
-# An open-source project demonstrates a web3 based file sharing sytem where data is shared with everyone with access to it. 😃
+## An open-source project demonstrates a web3 based file sharing sytem where data is shared with everyone with access to it. 😃
 <br>
-If it's your first contribution do [check this out] (https://github.com/suhani1804/first-contributions/)
+If it's your first contribution do explore this - https://github.com/suhani1804/first-contributions/
+<br>
 <br>
 
 </div>
- This repository aims to help blockchain practitioner with their first successful pull request and open source contribution. 🤝:
+ This repository aims to help <b>blockchain practitioner</b> with their first successful pull request and open source contribution. 🤝:
  
 
 🚀: Feel free to use this project to make your first contribution to an open-source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
