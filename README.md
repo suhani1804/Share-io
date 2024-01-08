@@ -3,7 +3,7 @@
 ### Welcome to Share-io
 # An open-source project demonstrates a web3 based file sharing sytem where data is shared with everyone with access to it. 😃
 <br>
-If it's your first contribution do [check this out](https://github.com/suhani1804/first-contributions/)
+If it's your first contribution do [check this out] (https://github.com/suhani1804/first-contributions/)
 <br>
 
 </div>
